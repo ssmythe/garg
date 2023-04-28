@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='garg',
@@ -7,5 +7,5 @@ setup(
     author='Your Name',
     url='https://github.com/ssmythe/garg',
     license='Apache 2.0',
-    py_modules=['garg']
+    packlages=find_packages(),
 )
