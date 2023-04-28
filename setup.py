@@ -7,5 +7,5 @@ setup(
     author='Your Name',
     url='https://github.com/ssmythe/garg',
     license='Apache 2.0',
-    packlages=find_packages(),
+    packages=find_packages()
 )
